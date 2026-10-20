@@ -1,0 +1,72 @@
+{
+    "approved_on": "2026-10-17",
+    "basis": "The user approved the 16 proposed UMDTS category groupings in this chat. These are application configuration, informed by the published services, rather than an official LGU classification list.",
+    "reference_urls": [
+        "https://elgu-umingan-pangasinan-news.e.gov.ph/citizen-charter",
+        "https://drive.google.com/drive/folders/13lpNORGWI-cCcTrzF6YLxVvE3WkqD1-7",
+        "https://drive.google.com/drive/folders/1YKEd5X1IQaUdj-XhQRenvwxUFG9oH8iR"
+    ],
+    "categories": [
+        { "code": "CORR", "name": "General correspondence", "examples": "Letters, invitations, general requests", "default_processing_days": null },
+        { "code": "MEMO", "name": "Memorandum / Office order", "examples": "Internal instructions and issuances", "default_processing_days": null },
+        { "code": "ENDORSE", "name": "Endorsement / Referral", "examples": "Documents forwarded for action", "default_processing_days": null },
+        {
+            "code": "CERT",
+            "name": "Certificate / Clearance request",
+            "examples": "Requests for certifications and clearances",
+            "default_processing_days": null
+        },
+        { "code": "PERMIT", "name": "Permit / License application", "examples": "Permit applications and renewals", "default_processing_days": null },
+        {
+            "code": "CIVIL",
+            "name": "Civil registry transaction",
+            "examples": "Birth, marriage, death, correction and copy requests",
+            "default_processing_days": null
+        },
+        {
+            "code": "PROC",
+            "name": "Procurement / Supply",
+            "examples": "Purchase requests, quotations, purchase orders",
+            "default_processing_days": null
+        },
+        {
+            "code": "FIN",
+            "name": "Financial / Payment",
+            "examples": "Disbursement vouchers, reimbursements, billing",
+            "default_processing_days": null
+        },
+        { "code": "BUDGET", "name": "Budget / Appropriation", "examples": "Funding requests and budget documents", "default_processing_days": null },
+        {
+            "code": "HR",
+            "name": "Personnel / HR",
+            "examples": "Leave applications, personnel requests, employment records",
+            "default_processing_days": null
+        },
+        {
+            "code": "LEGIS",
+            "name": "Ordinance / Resolution",
+            "examples": "Legislative proposals and approved issuances",
+            "default_processing_days": null
+        },
+        { "code": "CONTRACT", "name": "Contract / Agreement", "examples": "Contracts, MOAs and MOUs", "default_processing_days": null },
+        {
+            "code": "REPORT",
+            "name": "Plan / Project / Report",
+            "examples": "Project proposals, plans and accomplishment reports",
+            "default_processing_days": null
+        },
+        {
+            "code": "SERVICE",
+            "name": "Service / Assistance request",
+            "examples": "Requests for municipal services or assistance",
+            "default_processing_days": null
+        },
+        {
+            "code": "COMPLAINT",
+            "name": "Complaint / Feedback",
+            "examples": "Complaints, grievances and suggestions",
+            "default_processing_days": null
+        },
+        { "code": "OTHER", "name": "Other documents", "examples": "Documents requiring later classification", "default_processing_days": null }
+    ]
+}

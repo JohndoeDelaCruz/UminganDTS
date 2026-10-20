@@ -1,0 +1,85 @@
+{
+    "municipality": "Umingan, Pangasinan",
+    "verified_on": "2026-10-17",
+    "sources": {
+        "directory": "https://elgu-umingan-pangasinan-news.e.gov.ph/directory",
+        "charter": "https://elgu-umingan-pangasinan-news.e.gov.ph/citizen-charter",
+        "rhu1_charter": "https://drive.google.com/drive/folders/1yHAF4VaYwD_CQS5ZmJjiuPbyJOH-3IyX"
+    },
+    "offices": [
+        { "code": "MAYOR", "name": "Office of the Mayor", "aliases": ["Mayor's Office"], "sources": ["directory", "charter"] },
+        { "code": "SB", "name": "Sangguniang Bayan Office", "aliases": ["Sangguniang Bayan"], "sources": ["directory", "charter"] },
+        {
+            "code": "HRMO",
+            "name": "Human Resource and Management Office",
+            "aliases": ["HRMO", "Human Resource Management Office"],
+            "sources": ["directory", "charter"]
+        },
+        { "code": "MEO", "name": "Municipal Engineering Office", "aliases": ["Engineering Office"], "sources": ["directory", "charter"] },
+        { "code": "GSO", "name": "General Services Office", "aliases": ["GSO"], "sources": ["directory", "charter"] },
+        { "code": "MPDO", "name": "Municipal Planning and Development Office", "aliases": ["MPDO"], "sources": ["directory", "charter"] },
+        { "code": "LIBRARY", "name": "Municipal Library", "aliases": [], "sources": ["directory", "charter"] },
+        {
+            "code": "MCR",
+            "name": "Municipal Civil Registry",
+            "aliases": ["Civil Registrar Office", "Municipal Civil Registrar Office", "Local Civil Registry Office"],
+            "sources": ["directory", "charter"]
+        },
+        { "code": "ACCOUNTING", "name": "Municipal Accounting Office", "aliases": ["Accounting Office"], "sources": ["directory", "charter"] },
+        { "code": "MBO", "name": "Municipal Budget Office", "aliases": ["Budget Office"], "sources": ["directory", "charter"] },
+        { "code": "MSWDO", "name": "Municipal Social Welfare and Development Office", "aliases": ["MSWDO"], "sources": ["directory", "charter"] },
+        {
+            "code": "MTO",
+            "name": "Municipal Treasurer's Office",
+            "aliases": ["Treasury Office", "Municipal Treasury Office"],
+            "sources": ["directory", "charter"]
+        },
+        {
+            "code": "LDRRMO",
+            "name": "Local Disaster Risk Reduction and Management Office",
+            "aliases": [
+                "LDRRMO",
+                "MDRRMO",
+                "Municipal Disaster Risk and Reduction Office",
+                "Municipal Disaster Risk Reduction and Management Office"
+            ],
+            "sources": ["directory", "charter"]
+        },
+        { "code": "ASSESSOR", "name": "Municipal Assessor's Office", "aliases": ["Assessor's Office"], "sources": ["directory", "charter"] },
+        {
+            "code": "ADMIN",
+            "name": "Office of the Municipal Administrator",
+            "aliases": ["Municipal Administrator's Office"],
+            "sources": ["directory"]
+        },
+        {
+            "code": "MCDO",
+            "name": "Municipal Cooperative Development Office",
+            "aliases": ["Cooperative Office"],
+            "sources": ["directory", "charter"]
+        },
+        { "code": "AGRICULTURE", "name": "Municipal Agriculture Office", "aliases": ["Agriculture Office"], "sources": ["directory", "charter"] },
+        { "code": "MENRO", "name": "Municipal Environment and Natural Resources Office", "aliases": ["MENRO"], "sources": ["directory", "charter"] },
+        {
+            "code": "MARKET",
+            "name": "Market Management Office",
+            "aliases": ["Public Market", "Public Market Office"],
+            "sources": ["directory", "charter"]
+        },
+        {
+            "code": "MHO-RHU1",
+            "name": "Municipal Health Office / Rural Health Unit I",
+            "aliases": ["Municipal Health Office", "Rural Health Unit I", "RHU I", "RHU 1"],
+            "sources": ["directory", "charter", "rhu1_charter"]
+        },
+        {
+            "code": "RHU2",
+            "name": "Rural Health Unit II",
+            "aliases": ["Rural Health Office II", "RHU II", "RHU 2"],
+            "sources": ["directory", "charter"]
+        },
+        { "code": "SLAUGHTERHOUSE", "name": "Slaughterhouse", "aliases": ["Municipal Slaughterhouse"], "sources": ["directory", "charter"] },
+        { "code": "BARANGAY", "name": "Office of the Barangay Affairs", "aliases": ["Barangay Affairs Office"], "sources": ["directory"] },
+        { "code": "MNAO", "name": "Municipal Nutrition Action Office", "aliases": ["MNAO"], "sources": ["directory"] }
+    ]
+}

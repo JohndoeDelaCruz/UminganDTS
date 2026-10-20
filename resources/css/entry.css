@@ -1,0 +1,494 @@
+.entry-page {
+    position: relative;
+    isolation: isolate;
+    display: flex;
+    min-height: 100svh;
+    flex-direction: column;
+    justify-content: center;
+    background: #102b43;
+    color: #fff;
+    overflow: hidden;
+}
+.entry-scene,
+.entry-shade {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+}
+.entry-scene {
+    background: url('../images/municipal-illustration.svg') 35% center/cover no-repeat;
+}
+.entry-shade {
+    background:
+        linear-gradient(90deg, rgba(9, 27, 44, 0.76), rgba(12, 33, 51, 0.5) 53%, rgba(15, 35, 54, 0.66)),
+        linear-gradient(0deg, rgba(8, 24, 39, 0.85), transparent 52%);
+}
+.entry-shell {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 402px;
+    gap: 70px;
+    width: min(1220px, calc(100% - 104px));
+    min-height: 670px;
+    margin: 44px auto 35px;
+    align-items: center;
+}
+.entry-story {
+    display: flex;
+    min-width: 0;
+    align-self: stretch;
+    flex-direction: column;
+    padding: 9px 0 15px;
+}
+.entry-brand {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: #fff;
+    width: fit-content;
+}
+.entry-emblem {
+    display: grid;
+    place-items: center;
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    border: 1px solid #ffffff7a;
+    outline: 1px solid #ffffff25;
+    outline-offset: 5px;
+    border-radius: 50%;
+    background: #ffffff0d;
+}
+.entry-brand > span:last-child {
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 450;
+    letter-spacing: 0.1px;
+}
+.entry-brand strong {
+    display: block;
+    font-size: 17px;
+    font-weight: 650;
+}
+.entry-introduction {
+    margin: auto 0;
+    padding: 80px 0 65px;
+    max-width: 640px;
+}
+.entry-kicker {
+    display: block;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: #c3d3e2;
+    font-weight: 600;
+    margin-bottom: 19px;
+}
+.entry-introduction h1 {
+    font-size: clamp(32px, 3.4vw, 49px);
+    line-height: 1.2;
+    letter-spacing: -1.2px;
+    font-weight: 720;
+    color: #fff;
+    text-shadow: 0 2px 14px #0c223433;
+}
+.entry-introduction > p {
+    font-size: 17px;
+    line-height: 1.7;
+    color: #e0e7ed;
+    max-width: 490px;
+    margin-top: 19px;
+}
+.entry-track-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 27px;
+    border-bottom: 1px solid #ffffff55;
+    padding-bottom: 7px;
+}
+.entry-track-link svg:last-child {
+    margin-left: 8px;
+}
+.entry-track-link:hover {
+    color: #b8d2ff;
+    border-color: #b8d2ff;
+}
+.entry-features {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 19px;
+    padding-top: 22px;
+    border-top: 1px solid #ffffff21;
+}
+.entry-features > div {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+.entry-features > div > span {
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    height: 41px;
+    width: 41px;
+    border-radius: 50%;
+    border: 1px solid #ffffff22;
+    background: #ffffff15;
+    color: #e2eaf2;
+}
+.entry-features h2 {
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    margin: 3px 0 5px;
+}
+.entry-features p {
+    font-size: 10px;
+    line-height: 1.6;
+    color: #c0cfdb;
+}
+.entry-card {
+    align-self: center;
+    min-width: 0;
+    background: #fff;
+    border: 1px solid #e5eaf0;
+    border-radius: 9px;
+    padding: 36px 32px 26px;
+    color: #26344b;
+    box-shadow: 0 18px 65px #06182e30;
+}
+.entry-card-heading {
+    margin-bottom: 26px;
+}
+.entry-card-heading h2 {
+    font-size: 26px;
+    letter-spacing: -0.6px;
+    color: #172337;
+    font-weight: 750;
+}
+.entry-card-heading > p {
+    font-size: 13px;
+    color: #718099;
+    margin-top: 5px;
+}
+.entry-setup {
+    display: flex;
+    gap: 9px;
+    align-items: flex-start;
+    background: #f0f5ff;
+    border: 1px solid #d9e5fa;
+    border-radius: 6px;
+    padding: 11px;
+    margin-bottom: 23px;
+    color: #4e6f9e;
+}
+.entry-setup > svg {
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+.entry-setup > p {
+    font-size: 11px;
+    line-height: 1.65;
+}
+.entry-form {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+.entry-form .field {
+    gap: 8px;
+}
+.entry-form .field > span {
+    font-size: 12px;
+    color: #2c3c55;
+    font-weight: 600;
+}
+.entry-form .control {
+    height: 43px;
+    min-height: 43px;
+    padding: 11px 12px;
+    font-size: 12px;
+    border-color: #dce3ed;
+    border-radius: 5px;
+    color: #344761;
+}
+.entry-form .control::placeholder {
+    color: #8290a7;
+}
+.entry-password {
+    position: relative;
+}
+.entry-password .control {
+    padding-right: 43px;
+}
+.entry-password > button {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #77869d;
+    display: flex;
+    padding: 3px;
+}
+.entry-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: -3px;
+}
+.entry-options .check-label {
+    font-size: 11px;
+    color: #455674;
+    gap: 7px;
+}
+.entry-options .check-label input {
+    width: 13px;
+    height: 13px;
+}
+.entry-options > a {
+    font-size: 11px;
+    font-weight: 550;
+    color: #2268e0;
+}
+.entry-submit.btn {
+    min-height: 43px;
+    position: relative;
+    font-size: 13px;
+    font-weight: 650;
+    border-radius: 5px;
+    background: linear-gradient(#2d7df2, #1c64dd);
+}
+.entry-submit > svg {
+    position: absolute;
+    right: 15px;
+}
+.entry-submit:disabled {
+    background: #477ccc;
+    opacity: 0.7;
+}
+.entry-divider {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 23px 0 17px;
+    color: #8290a6;
+    font-size: 10px;
+}
+.entry-divider > span {
+    height: 1px;
+    flex: 1;
+    background: #e6ebf2;
+}
+.entry-public-button.btn {
+    width: 100%;
+    min-height: 41px;
+    font-size: 11px;
+    border-radius: 5px;
+    gap: 9px;
+    color: #3c5578;
+}
+.entry-account-note {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    margin-top: 22px;
+    color: #7b8ba4;
+}
+.entry-account-note > svg {
+    flex-shrink: 0;
+}
+.entry-account-note > p {
+    font-size: 10px;
+    line-height: 1.7;
+    color: #73829b;
+}
+.entry-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: min(1220px, calc(100% - 104px));
+    margin: 0 auto 24px;
+    color: #b7c7d5;
+    font-size: 10px;
+}
+@media (min-width: 1500px) {
+    .entry-shell {
+        min-height: 760px;
+        gap: 105px;
+        grid-template-columns: minmax(0, 1fr) 430px;
+    }
+    .entry-card {
+        padding: 40px 37px 29px;
+    }
+    .entry-introduction h1 {
+        font-size: 49px;
+    }
+}
+@media (max-width: 1100px) {
+    .entry-shell {
+        width: calc(100% - 70px);
+        gap: 35px;
+        grid-template-columns: minmax(0, 1fr) 365px;
+    }
+    .entry-card {
+        padding: 30px 26px 25px;
+    }
+    .entry-introduction h1 {
+        font-size: 36px;
+    }
+    .entry-introduction > p {
+        font-size: 15px;
+    }
+    .entry-features {
+        gap: 13px;
+    }
+    .entry-features > div {
+        flex-direction: column;
+        gap: 7px;
+    }
+    .entry-footer {
+        width: calc(100% - 70px);
+    }
+}
+@media (max-width: 760px) {
+    .entry-page {
+        justify-content: flex-start;
+    }
+    .entry-scene {
+        background-position: 40% 0;
+        background-size: auto 750px;
+    }
+    .entry-shade {
+        background: linear-gradient(0deg, #102b43 20%, #102b4399 75%, #102b43b3);
+    }
+    .entry-shell {
+        width: calc(100% - 42px);
+        margin: 27px auto 23px;
+        grid-template-columns: 1fr;
+        gap: 28px;
+        min-height: 0;
+    }
+    .entry-story {
+        padding: 0;
+    }
+    .entry-emblem {
+        width: 44px;
+        height: 44px;
+        outline-offset: 3px;
+    }
+    .entry-emblem svg {
+        width: 23px;
+    }
+    .entry-brand {
+        gap: 12px;
+    }
+    .entry-brand > span:last-child {
+        font-size: 11px;
+        line-height: 1.5;
+    }
+    .entry-brand strong {
+        font-size: 14px;
+    }
+    .entry-introduction {
+        padding: 46px 0 28px;
+    }
+    .entry-kicker {
+        font-size: 8px;
+        letter-spacing: 1.1px;
+        margin-bottom: 14px;
+    }
+    .entry-introduction h1 {
+        font-size: 32px;
+        line-height: 1.23;
+        letter-spacing: -0.8px;
+    }
+    .entry-introduction > p {
+        font-size: 13px;
+        line-height: 1.8;
+        margin-top: 15px;
+    }
+    .entry-track-link {
+        font-size: 12px;
+        margin-top: 18px;
+    }
+    .entry-features {
+        gap: 11px;
+        padding-top: 18px;
+    }
+    .entry-features > div {
+        gap: 5px;
+    }
+    .entry-features > div > span {
+        height: 33px;
+        width: 33px;
+    }
+    .entry-features > div > span > svg {
+        width: 18px;
+    }
+    .entry-features h2 {
+        font-size: 10px;
+        line-height: 1.6;
+        margin-bottom: 2px;
+    }
+    .entry-features p {
+        font-size: 9px;
+        line-height: 1.6;
+    }
+    .entry-card {
+        width: 100%;
+        padding: 27px 24px 24px;
+        border-radius: 8px;
+    }
+    .entry-card-heading {
+        margin-bottom: 23px;
+    }
+    .entry-card-heading h2 {
+        font-size: 25px;
+    }
+    .entry-card-heading > p {
+        font-size: 12px;
+    }
+    .entry-setup > p {
+        font-size: 11px;
+    }
+    .entry-form .control {
+        font-size: 14px;
+        height: 45px;
+    }
+    .entry-form .field > span {
+        font-size: 12px;
+    }
+    .entry-options .check-label,
+    .entry-options > a {
+        font-size: 11px;
+    }
+    .entry-submit.btn {
+        min-height: 45px;
+        font-size: 13px;
+    }
+    .entry-public-button.btn {
+        font-size: 11px;
+    }
+    .entry-account-note > p {
+        font-size: 10px;
+    }
+    .entry-footer {
+        width: calc(100% - 42px);
+        margin-bottom: 22px;
+        justify-content: center;
+        text-align: center;
+        font-size: 9px;
+    }
+    .entry-footer > span:last-child {
+        display: none;
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+    .entry-page * {
+        transition: none !important;
+    }
+}
